@@ -5,6 +5,12 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+	  {
+    resolve: `gatsby-source-drupal`,
+    options: {
+      baseUrl: `http://drupal8decoupledvdbp4s32c7.devcloud.acquia-sites.com`,
+    },
+  },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

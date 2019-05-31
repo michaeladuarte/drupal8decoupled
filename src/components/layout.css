@@ -8,6 +8,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+card__container {
+  background-color: gray;
+  zoom: 1;
+  margin-top: 1rem;
+  border-color: black
+}
+card__content {
+  padding: 2rem 1rem;
+  margin: -1rem 1rem 0;
+  position: relative;
+  z-index: 2;
+}
 article,
 aside,
 details,
@@ -247,8 +259,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -377,6 +388,7 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
+  font-family: "Work Sans", sans-serif;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
